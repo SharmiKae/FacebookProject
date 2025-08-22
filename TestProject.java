@@ -24,6 +24,7 @@ public class TestProject {
 	
 		WebElement button = driver.findElement(By.name("login"));
 		button.click();
+		System.out.println("Login Successful");
 		
 	}
 
